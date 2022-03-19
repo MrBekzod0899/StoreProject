@@ -41,8 +41,11 @@ fetch("https://fakestoreapi.com/products")
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
+                    <span>${item.rating.count}</span>
                 </div>
-                <span>120</span>
+                <div class="card_shop">
+                    <span><i class='fas fa-cart-plus'></i></span>
+                </div>
                 </div>
         </div>
         </div>
