@@ -50,11 +50,12 @@ header .menu{
     justify-content: center;
     width: 100vw;
     height: 100vh;
-    background: #0000005e;
+    background: #1d1b1b;
     z-index: 2;
 }
 .loading img{
     width: 500px;
+    border: none;
 }
 
 main{
@@ -159,6 +160,14 @@ main{
     .card{
         width: 100%;
     }   
+}
+
+.fa-cart-plus{
+    font-size: 22px;
+    cursor: pointer ;
+}
+.fa-cart-plus:active{
+    color: green;
 }
 @media (max-width:768px) {
     body{

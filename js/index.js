@@ -93,7 +93,6 @@ function filterCategory(e){
 }
 
 function addToCart(id){
-
 fetch(`https://fakestoreapi.com/products/${id}`)
 .then((res) => res.json())
 .then((data) => {
@@ -104,5 +103,8 @@ fetch(`https://fakestoreapi.com/products/${id}`)
     saveCart.push(cart)
     localStorage.setItem('product',JSON.stringify(saveCart)) 
 }); 
-  
+}
+
+function saveCart(){
+    localStorage.getItem('product')
 }
